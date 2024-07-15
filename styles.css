@@ -47,9 +47,14 @@ table {
     border-spacing: 0;
 }
 
+ol li{
+    list-style: none;
+}
+
 *{
     box-sizing: border-box;
 }
+
  
 
 .attribution { font-size: 11px; text-align: center; }
@@ -58,3 +63,6 @@ table {
 /* ------------------------------ End of CSS Reset ---------------------------- */ 
 
 
+body{
+    margin: 5% 10%;
+}
