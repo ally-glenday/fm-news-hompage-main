@@ -80,7 +80,7 @@ button {
 
 /* Main body styles */ 
 body{
-    margin: 5%;
+    margin: 5%; 
 }
 
 /* Creates 3 lines for the hamburger menu toggle */
@@ -95,4 +95,12 @@ button span{
 .main-image{
     max-height: 80vh;
     max-width: 90vw;
+}
+
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.main-navbar button{
+   
 }
