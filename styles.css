@@ -98,9 +98,12 @@ button span{
 }
 
 .main-navbar{
+    position: fixed;
     display: flex;
     justify-content: space-between;
 }
-.main-navbar button{
+
+#hamburger-menu{
    
 }
+
