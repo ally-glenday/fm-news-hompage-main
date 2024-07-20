@@ -75,7 +75,7 @@ button {
     display: none;
 }
 .display-block{
-    display: block;
+    display: inline;
 }
 
 /* Main body styles */ 
@@ -85,7 +85,6 @@ body{
 
 /* Creates 3 lines for the hamburger menu toggle */
 nav button{
-    display: block;
     height: 2em;
     width: 2em;
     margin-bottom: .25em;   
@@ -97,16 +96,19 @@ nav button{
 .main-image{
     max-height: 80vh;
     max-width: 90vw;
-    margin-top: 3em;
+    /* margin-top: 3em; */
 }
 
-.main-navbar{
-    position: fixed;
+img[src="assets/images/logo.svg"]{
+    max-height: 1.5em;
+}
+.main-navbar-flex-container{
     display: flex;
     justify-content: space-between;
 }
 
 #hamburger-menu{
+
    background-color: white;
    width: 70vw;
 }
