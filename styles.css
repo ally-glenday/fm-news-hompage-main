@@ -120,13 +120,17 @@ img[src="assets/images/logo.svg"]{
     justify-content: space-between;
 }
 
-#hamburger-menu{
-   position: absolute;
-   float: right;
-   background-color: white;
-   width: 60vw;
-   height: 100vh;
-   /* margin-left: 50%; */
+#hamburger-menu {
+    position: absolute;
+    float: right;
+    background-color: white;
+    width: 60vw;
+    height: 100vh;
+    padding: 20% 5% 0 5%;
+}
+
+#hamburger-menu li{
+    padding: 5%;
 }
 
 #hamburger-list-container{
