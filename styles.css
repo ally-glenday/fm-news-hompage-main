@@ -63,7 +63,9 @@ button {
     box-sizing: border-box;
 }
 
- 
+a {
+    all: unset;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -167,4 +169,18 @@ main p{
     color: var(--dark-grey-blue);
     font-size: .75em;
     line-height: 1.5em;
+}
+
+main a{
+    display: block;
+    text-transform: uppercase;
+    font-size: .7em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--soft-red);
+    width: 40vw;
+    margin: 5% 0;
+    padding: 5%;
 }
