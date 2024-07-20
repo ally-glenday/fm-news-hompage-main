@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -69,7 +70,15 @@ button {
 
 /* ------------------------------ End of CSS Reset / レセットの終わり ---------------------------- */ 
 
-/* Classes and IDs / クラスとアイディ*/ 
+body{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    margin: 5%; 
+}
+
+/* Classes, IDs & custom variables / クラスやアイディ*/ 
 
 .display-none{
     display: none;
@@ -82,10 +91,18 @@ button {
     display: flex;
 }
 
-/* Main body styles */ 
-body{
-    margin: 5%; 
+:root{
+    --main-bg-color: ;
+    --off-white: hsl(36, 100%, 99%);
+    --grey-blue: hsl(233, 8%, 79%);
+    --dark-grey-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+    --soft-red: hsl(5, 85%, 63%);
+    --soft-orange: hsl(35, 77%, 62%);
 }
+
+/* Nav styles */ 
+
 
 /* Creates 3 lines for the hamburger menu toggle */
 nav button{
@@ -130,9 +147,15 @@ img[src="assets/images/logo.svg"]{
 }
 
 #hamburger-menu li{
-    padding: 5%;
+    padding: 10% 0%;
 }
 
 #hamburger-list-container{
     justify-content: flex-end;
+}
+
+
+/* Main styling */ 
+h1{
+    font-weight: 800;
 }
