@@ -84,17 +84,20 @@ body{
 }
 
 /* Creates 3 lines for the hamburger menu toggle */
-button span{
+nav button{
     display: block;
-    background-color: black;
-    height: .1em;
+    height: 2em;
     width: 2em;
     margin-bottom: .25em;   
+    background-image: url("assets/images/icon-menu.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .main-image{
     max-height: 80vh;
     max-width: 90vw;
+    margin-top: 3em;
 }
 
 .main-navbar{
@@ -104,6 +107,7 @@ button span{
 }
 
 #hamburger-menu{
-   
+   background-color: white;
+   width: 70vw;
 }
 
