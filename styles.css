@@ -74,6 +74,7 @@ a {
 
 body{
     font-family: "Inter", sans-serif;
+    background-color: var(--off-white);
 }
 
 body{
@@ -94,7 +95,6 @@ body{
 }
 
 :root{
-    --main-bg-color: ;
     --off-white: hsl(36, 100%, 99%);
     --grey-blue: hsl(233, 8%, 79%);
     --dark-grey-blue: hsl(236, 13%, 42%);
@@ -137,6 +137,7 @@ img[src="assets/images/logo.svg"]{
 .main-navbar-flex-container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 #hamburger-menu {
@@ -183,4 +184,33 @@ main a{
     width: 40vw;
     margin: 5% 0;
     padding: 5%;
+    margin-bottom: 20%;
+}
+
+aside{
+    background-color: var(--very-dark-blue);
+    padding: 5%;
+    margin-bottom: 20%;
+}
+
+aside h2{
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--soft-orange);
+    margin-bottom: 10%;
+}
+
+aside h3{
+    color: var(--off-white);
+    font-size: .8em;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+aside p{
+    color: var(--grey-blue);
+}
+
+hr{
+    margin: 10% 0;
 }
