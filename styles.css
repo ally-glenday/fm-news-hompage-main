@@ -75,7 +75,11 @@ button {
     display: none;
 }
 .display-block{
-    display: inline;
+    display: block;
+}
+
+.flex-container{
+    display: flex;
 }
 
 /* Main body styles */ 
@@ -89,6 +93,15 @@ nav button{
     width: 2em;
     margin-bottom: .25em;   
     background-image: url("assets/images/icon-menu.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.close-menu{
+    height: 2em;
+    width: 2em;
+    margin-bottom: .25em;  
+    background-image: url("assets/images/icon-menu-close.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -108,8 +121,14 @@ img[src="assets/images/logo.svg"]{
 }
 
 #hamburger-menu{
-
+   position: absolute;
+   float: right;
    background-color: white;
-   width: 70vw;
+   width: 60vw;
+   height: 100vh;
+   /* margin-left: 50%; */
 }
 
+#hamburger-list-container{
+    justify-content: flex-end;
+}
