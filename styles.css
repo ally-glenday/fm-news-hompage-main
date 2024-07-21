@@ -94,6 +94,10 @@ body{
     display: flex;
 }
 
+.grid-container{
+    display: grid;
+}
+
 :root{
     --off-white: hsl(36, 100%, 99%);
     --grey-blue: hsl(233, 8%, 79%);
@@ -214,3 +218,4 @@ aside p{
 hr{
     margin: 10% 0;
 }
+
