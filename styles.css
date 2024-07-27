@@ -112,16 +112,16 @@ body{
 
 /* Creates 3 lines for the hamburger menu toggle */
 nav button{
-    height: 2em;
+    height: 1em;
     width: 2em;
     margin-bottom: .25em;   
     background-image: url("assets/images/icon-menu.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    
 }
-
 .close-menu{
-    height: 2em;
+    height: 1em;
     width: 2em;
     margin-bottom: .25em;  
     background-image: url("assets/images/icon-menu-close.svg");
@@ -142,6 +142,7 @@ img[src="assets/images/logo.svg"]{
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
+    align-items: center;
 }
 
 #hamburger-menu {
@@ -214,6 +215,7 @@ aside h3{
 aside p{
     color: var(--grey-blue);
     font-size: .75em;
+    line-height: 1.5em;
 
 }
 
