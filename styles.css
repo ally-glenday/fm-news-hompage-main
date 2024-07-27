@@ -213,6 +213,8 @@ aside h3{
 
 aside p{
     color: var(--grey-blue);
+    font-size: .75em;
+
 }
 
 hr{
