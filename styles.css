@@ -58,7 +58,9 @@ button {
     outline: none;
     box-shadow: none;
 }
-
+li{
+    list-style: none;
+}
 *{
     box-sizing: border-box;
 }
@@ -106,6 +108,7 @@ body{
     --soft-red: hsl(5, 85%, 63%);
     --soft-orange: hsl(35, 77%, 62%);
 }
+
 
 /* Nav styles */ 
 
@@ -223,19 +226,18 @@ hr{
     margin: 10% 0;
 }
 
-article img{
+.bottom-container article img{
     width: 25vw;
     float: left;
     margin-right: 10%;
-
 }
 
-li article{
+.bottom-container article{
     clear: both;
     margin-bottom: 15%;
 }
 
-li article span{
+.bottom-container article span{
     display: block;
     font-size: 1.5em;
     font-weight: 700;
@@ -243,13 +245,13 @@ li article span{
     margin-bottom: 3%;
 }
 
-li article h3{
+.bottom-container article h3{
     color: var(--very-dark-blue);
     font-size: .8em;
     font-weight: 700;
     margin-bottom: 3%;
 }
-li article p{
+.bottom-container article p{
     font-size: 4vw;
     color: var(--dark-grey-blue);
     line-height: 1.4em;
@@ -279,6 +281,36 @@ li article p{
         display: flex;
         justify-content: space-between;
         
+    }
+
+    .main-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .desktop-container{
+        width: 58vw;
+        display: inline-block;
+        float: left;
+    }
+
+    aside{
+        display: inline-block;
+        max-width: 30vw;
+        margin-left: 2%;
+        padding: 2%;
+    }
+
+    main p, main a{
+        max-width: 40%;
+    }
+
+    main h1{
+        max-width: 50%;
+        float: left;
+    }
+    main p, main a{
+        float: right;
     }
 
   }
