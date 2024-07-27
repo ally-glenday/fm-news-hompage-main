@@ -264,6 +264,16 @@ li article p{
 
     #hamburger-button{
         display: none;
+    }
+
+    #hamburger-menu li{
+        padding: 0;
+        padding-left: 10px;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
         
     }
 
