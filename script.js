@@ -6,3 +6,17 @@ function toggleMenu(){
     // document.body.style.backgroundColor = "#81808a"; 
     
 }
+
+if(window.innerWidth < 760){
+
+}
+else{
+    function appendChild(){
+        document.getElementById("hamburger-menu").appendChild(document.getElementById("nav-bar"));
+    
+    }
+}
+
+
+
+

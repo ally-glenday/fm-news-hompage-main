@@ -250,3 +250,21 @@ li article p{
     color: var(--dark-grey-blue);
     line-height: 1.4em;
 }   
+
+
+/* Media Queries */ 
+@media screen and (min-width: 720px) {
+    #hamburger-menu{
+        display: flex;
+        background-color: none;
+        padding: 0;
+        height: min-content;
+        width: min-content;
+    }
+
+    #hamburger-button{
+        display: none;
+        
+    }
+
+  }
