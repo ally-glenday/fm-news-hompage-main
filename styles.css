@@ -69,6 +69,7 @@ a {
     all: unset;
 }
 
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -289,7 +290,7 @@ hr{
     }
 
     .desktop-container{
-        width: 58vw;
+        width: 60vw;
         display: inline-block;
         float: left;
     }
@@ -298,19 +299,62 @@ hr{
         display: inline-block;
         max-width: 30vw;
         margin-left: 2%;
+        margin-bottom: 0;
         padding: 2%;
+
+    }
+
+    aside p{
+        font-size: .69em;
     }
 
     main p, main a{
-        max-width: 40%;
+        /* max-width: 40%; */
     }
 
     main h1{
-        max-width: 50%;
-        float: left;
+        /* max-width: 50%;
+        float: left; */
     }
     main p, main a{
-        float: right;
+        /* float: right; */
+    }
+    main p{
+        font-size: .5em;
+    }
+
+    main a{
+        /* width: 10%;
+        height: 10%; */
+    }
+
+    main p, main a{
+       /* all: unset; */
+    }
+
+    main{
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr; */
+    }
+
+    main a{
+        /* grid-row: 2;
+        grid-column: 2; */
+    }
+
+    #hamburger-menu li{
+        padding: 0;
+        padding-left: 10px;
     }
 
   }
+
+  /* Desktop screens (1024px)  */ 
+  @media screen and (min-width: 1240px){
+    #hamburger-menu li{
+        padding-left: 40px;
+    }
+}
+
+/* Larger screens (1440px)  */ 
