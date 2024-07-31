@@ -350,20 +350,20 @@ hr{
         display: grid;
        
 
-        grid-template-columns: minmax(50%, 50%);
-        grid-template-rows: minmax(50%, 50%);
+        grid-template-columns: minmax(50%, 1fr);
+        grid-template-rows: minmax(50%, 1fr);
     }
 
     main h1{
         width: 50%;
-        height: 100%;
+        /* height: 100%; */
         grid-column: 1 / 2;
         grid-row-start: 1;
         grid-row-end: 2;
     }
 
     main p{
-        width: 50%;
+
         /* flex-basis: 50%;
         flex-grow: 1; */
 
@@ -389,7 +389,7 @@ hr{
         grid-row-end: 3;
         padding: 0;
         margin: 0;
-        max-width: 25%;
+        width: 50%;
         padding-top: 2%;
         padding: 5% 2%;
         
