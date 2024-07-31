@@ -17,6 +17,10 @@ else{
     }
 }
 
+// let asideWidth = document.getElementById("aside-width").offsetWidth;
+// document.getElementById(main-width).style.width = asideWidth;
+
+
 
 
 
